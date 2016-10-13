@@ -21,6 +21,10 @@
   ],
   "author": "Bill Hodges",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wildbillh/serialized-array-runner"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "jsdoc": "^3.4.2"
