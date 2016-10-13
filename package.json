@@ -1,0 +1,28 @@
+{
+  "name": "serialized-array-runner",
+  "version": "1.0.0",
+  "description": "ES6 Class which enables running functions returning promises successively and capturing the individual resolved data.",
+  "main": "./lib/serialized-array-runner.js",
+  "directories": {
+    "lib": "./lib",
+    "doc": "./doc",
+    "test": "./test",
+    "example": "./example"
+  },
+  "scripts": {
+    "test": "mocha -t 10000 --async-only --reporter spec --ui bdd test",
+    "generateDocs": "node_modules/.bin/jsdoc lib -d doc"
+  },
+  "keywords": [
+    "promises",
+    "array",
+    "es6",
+    "class"
+  ],
+  "author": "Bill Hodges",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdoc": "^3.4.2"
+  }
+}
