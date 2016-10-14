@@ -1,6 +1,6 @@
 {
   "name": "serialized-array-runner",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ES6 Class which enables running functions returning promises successively and capturing the individual resolved data.",
   "main": "./lib/serialized-array-runner.js",
   "directories": {
