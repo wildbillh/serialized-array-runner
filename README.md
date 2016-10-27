@@ -1,6 +1,8 @@
 #SerializedArrayRunner
-
 _A promise enabled, ES6 Class for serially calling asynchronous functions, to operate on array data._
+
+[![npm version](https://badge.fury.io/js/ns-wingman.svg)](https://badge.fury.io/js/serialized-array-runner)
+
 
 ##Synopsis
 
