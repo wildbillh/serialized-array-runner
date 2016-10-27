@@ -10,7 +10,7 @@
     "example": "./example"
   },
   "scripts": {
-    "test": "mocha -t 10000 --async-only --reporter spec --ui bdd test",
+    "test": "node_modules/.bin/mocha -t 10000 --async-only --reporter spec --ui bdd test",
     "generateDocs": "node_modules/.bin/jsdoc lib -d doc"
   },
   "keywords": [
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "jsdoc": "^3.4.2"
+    "jsdoc": "^3.4.2",
+    "mocha": "^3.1.2"
   }
 }
