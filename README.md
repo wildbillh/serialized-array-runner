@@ -1,9 +1,6 @@
 #SerializedArrayRunner
 _A promise enabled, ES6 Class for serially calling asynchronous functions, to operate on array data._
-
-[![npm version](https://badge.fury.io/js/serialized-array-runner.svg)](https://badge.fury.io/js/serialized-array-runner)
-
-
+[![Build Status](https://travis-ci.org/wildbillh/serialized-array-runner.svg?branch=master)](https://travis-ci.org/wildbillh/serialized-array-runner)[![Inline docs](http://inch-ci.org/github/wildbillh/serialized-array-runner.svg?branch=master)](http://inch-ci.org/github/wildbillh/serialized-array-runner)[![npm version](https://badge.fury.io/js/serialized-array-runner.svg)](https://badge.fury.io/js/serialized-array-runner)
 ##Synopsis
 
 Execute statements serially, throwing away any resolved data (such as database inserts):
